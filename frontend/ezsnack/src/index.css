@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swa');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definições de classes para os pesos da fonte Archivo */
+
+* {
+  
+}
+
+.alexandria-thin {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 100;
+}
+
+.alexandria-extralight {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 200;
+}
+
+.alexandria-light {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 300;
+}
+
+.alexandria-regular {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 400;
+}
+
+.alexandria-medium {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 500;
+}
+
+.alexandria-semibold {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 600;
+}
+
+.alexandria-bold {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 700;
+}
+
+.alexandria-extra-bold {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 800;
+}
+
+.alexandria-black {
+  font-family: "Alexandria", sans-serif;
+  font-weight: 900;
+}
+
+* {
+  font-family: Alexandria, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.titulo-login {
+  font-weight: bold;
+  font-size: 256px;
+  text-transform: uppercase;
+}
+
+.titulo-login span {
+  color: #FFF;
+  font-size: 96px;
+  display: block;
+  margin-top: -80px;
+}
+
+.cabecalho {
+  background-color: #FAC141;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-login {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.secao-login h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.form-login {
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
